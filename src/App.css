@@ -1,6 +1,20 @@
 .App {
   text-align: center;
+  margin: auto;
+ 
 }
+.form{ 
+  width: 70%;
+  margin: auto;
+
+}
+.log{
+  width:120px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -13,15 +27,16 @@
   }
 }
 
-.App-header {
+.App{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: space-between;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -36,3 +51,4 @@
     transform: rotate(360deg);
   }
 }
+.mb-2{margin-top: 100px;}
