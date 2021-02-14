@@ -2,70 +2,80 @@
   text-align: center;
   margin: auto;
 }
-
-
- 
   .tit{
     color:beige !important;
   }
-
-.movies{
-  text-align: center;
-  width:90%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap:20px;
-  
- 
+.mr-sm-2{
+  margin-left: 900px !important;
 }
-.appMovie{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-}
-.header{
-  color: aliceblue;
-}
-.car{
-  padding: 0;
-  margin: 0;
-}
-.title{
-  
-  margin: auto;
-width: 60%;
-color: silver;
-  background-color:rgba(0, 0, 0, 0.7);
-  text-align: center;
-}
-.mov{
-  height: 100%;
-  padding:30px;
-  background-color: rgba(0, 0, 0, 0.7);
-display:flex;
-flex-direction: column;
-justify-content: space-between;
-}
-header{
+.parent{
+margin-top: 80px;
+margin-left: 220px;
   text-align: center;
   width:60%;
-  margin:auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap:5px;
 }
-#montext{
-  text-align: center;
-}
-.content{
+
+.child{
+  border-radius: 8px;
+  border:2px solid white;
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
-  text-align: center;
+
 }
-.search{
+.rate-fix{display: flex;
+flex-direction: row;}
+.addCard{
+  width: 50%;
   margin: auto;
-  width: 60%;
 }
-.btn{
-  border-radius: 5px !important;
+
+h1{
+  margin-left: 100px;
+  text-align:center;
+  margin:auto;
+  width:20%;
+  color:white;
+  background-color: rgba(0,0,0,0.6);
+}
+.add{
+margin-left: 42%;  margin-top: 30px;
+  width: 170px;
+}
+
+.ant-rate{width: 250px !important;
+}
+.addCard {
+  background:rgba(0,0,0,0.8);
+  color: aliceblue;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  border: 2px solid white;
+  height: 500px;
+}
+.bio {
+  height: 50px !important;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ant-rate-disabled{
+  width: 150px;
+}
+.addcard1{
+  width: 70%;
+  margin: auto;
+}
+.btn-add  {
+  text-align: center;
+margin-left:200px ;
+margin-bottom: 5px;
+width: 130px;}
+.rate{
+  width: 250px;
 }
